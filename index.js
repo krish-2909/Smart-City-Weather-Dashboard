@@ -1,7 +1,7 @@
 const API_KEY = "7c4fd68607b14201a0a42234261603";
 
 async function fetchWeather(city) {
-  const URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=no`;
+  const URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${city}&aqi=no`;
   const weatherCard = document.getElementById("weather-card");
   weatherCard.style.display = "block";
   weatherCard.innerHTML = `<p style="text-align: center;">Loading...</p>`;
