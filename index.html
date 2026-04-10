@@ -25,10 +25,14 @@
   </style>
 </head>
 <body>
-  <div class="card" id="weather-card">Loading...</div>
+  <div style="width: 100%; max-width: 420px;">
+    <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+      <input type="text" id="city-input" placeholder="Search city..." style="flex: 1; padding: 12px 16px; border-radius: 10px; border: 2px solid #cbd5e1; font-size: 0.95rem; outline: none;" />
+      <button onclick="handleSearch()" style="padding: 12px 22px; border-radius: 10px; border: none; background: #3b82f6; color: white; cursor: pointer; font-size: 0.95rem; font-weight: 700;">Search</button>
+    </div>
+    <div class="card" id="weather-card" style="display: none;">Loading...</div>
+  </div>
 
-  <script src="index.js">
-   
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>

@@ -1,6 +1,4 @@
-/* ============================
-   RESET & BASE
-   ============================ */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,9 +13,7 @@ body {
   padding: 20px 16px 40px;
 }
 
-/* ============================
-   LAYOUT WRAPPER
-   ============================ */
+
 header,
 .search-section,
 .filter-section,
@@ -30,9 +26,7 @@ header,
   margin: 0 auto 20px auto;
 }
 
-/* ============================
-   HEADER
-   ============================ */
+
 .header {
   text-align: center;
   padding: 28px 0 12px;
@@ -50,9 +44,7 @@ header,
   margin-top: 6px;
 }
 
-/* ============================
-   SEARCH BAR
-   ============================ */
+
 .search-bar {
   display: flex;
   gap: 10px;
@@ -99,9 +91,7 @@ header,
   margin-top: 8px;
 }
 
-/* ============================
-   SECTION LABEL
-   ============================ */
+
 .section-label {
   font-size: 0.78rem;
   font-weight: 700;
@@ -111,9 +101,7 @@ header,
   margin-bottom: 10px;
 }
 
-/* ============================
-   FILTER TILES
-   ============================ */
+
 .filter-tiles {
   display: flex;
   gap: 8px;
@@ -144,9 +132,7 @@ header,
   color: #fff;
 }
 
-/* ============================
-   CURRENT WEATHER CARD
-   ============================ */
+
 .current-card {
   background: #fff;
   border-radius: 16px;
@@ -192,9 +178,7 @@ header,
   line-height: 1;
 }
 
-/* ============================
-   WEAR ADVICE
-   ============================ */
+
 .wear-advice {
   background: #eff6ff;
   border: 2px solid #bfdbfe;
@@ -208,9 +192,7 @@ header,
   gap: 10px;
 }
 
-/* ============================
-   STATS
-   ============================ */
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -244,9 +226,7 @@ header,
   color: #3b82f6;
 }
 
-/* ============================
-   FORECAST GRID
-   ============================ */
+
 .forecast-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -303,9 +283,7 @@ header,
   font-size: 0.9rem;
 }
 
-/* ============================
-   MAP
-   ============================ */
+
 #map {
   height: 260px;
   border-radius: 14px;
@@ -313,9 +291,7 @@ header,
   border: 2px solid #e2e8f0;
 }
 
-/* ============================
-   LOADING
-   ============================ */
+
 .loading {
   text-align: center;
   padding: 40px;
@@ -324,9 +300,7 @@ header,
   font-weight: 600;
 }
 
-/* ============================
-   RESPONSIVE
-   ============================ */
+
 @media (max-width: 600px) {
   .forecast-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -345,4 +319,3 @@ header,
     font-size: 1.6rem;
   }
 }
-/* '6b3a6c4e3b0af0f8acbee0c43ae7b3bb'; */
